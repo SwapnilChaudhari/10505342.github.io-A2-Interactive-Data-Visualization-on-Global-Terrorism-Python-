@@ -3,29 +3,32 @@
 **INTERACTIVE DATA VISUALIZATION ON GLOBAL TERRORISM USING PYTHON AND BOKEH**
 
 **ASSIGNMENT -2
+
 MODULE: DATA VISUALIZATION
+
 MSc Data Analytics
-DUBLIN BUSINESS SCHOOL**
 
-**AUTHORS / TEAM MEMBERS / Student Names:-------------------------------------------------------------------------------------------
+DUBLIN BUSINESS SCHOOL
 
-**Swapnil Chaudhari -10505342
+**AUTHORS / TEAM MEMBERS / Student Names: ** ------------------------------------------------------------------------------------------
 
-**Ashish Bharadwaj -10396445
+Swapnil Chaudhari -10505342
 
-**Rakesh Pattanad- 10390582
+Ashish Bharadwaj -10396445
+
+Rakesh Pattanad - 10390582
 
 ------------------------------------------------------------------------------------------------------------------------------------
-TOOLS FOR VISUALIZATION: PYTHON , JUPYTER , ANACONDA
+**TOOLS FOR VISUALIZATION: PYTHON , JUPYTER , ANACONDA**
 
-LIBRARIES : PANDAS, NUMPY, MATPLOTLIB , BOKEH (FOR INTERACTIVE VISUALIZATIONS) , FOLIUM 
+**LIBRARIES : PANDAS, NUMPY, MATPLOTLIB , BOKEH (FOR INTERACTIVE VISUALIZATIONS) , FOLIUM **
 
  
 Everyday,  world has faced several terrorism activities and threats jeopardizing peace of the socity in different nooks. Hence, with the 
 Global Terrorism dataset which contains rich information regarding attacks and targetd cities along with their geospatial cordinates, attack time, 
 we can visualize and see the surprising insights. The richness of the dataset has convinced us to achieve fruitful visualizations.
 
-Contribution:
+**Contribution:**
 Each team member has contributes and fulfild the following tasks.
 
 SWAPNIL CHAUDHARI (10505342) ----------------------------------------------------------------------------------------------------
@@ -61,7 +64,7 @@ RAKESH PATTANAD (10390582)------------------------------------------------------
 3.Top 20 terror groups by attack counts
 
 
-**Dataset: Global Terrorism Database ------------------------------------------------------------------------------------------------
+**Dataset: Global Terrorism Database **------------------------------------------------------------------------------------------------
 
 More than 180,000 terrorist attacks worldwide, 1970-2017
 
@@ -71,7 +74,7 @@ This dataset contains 100 variables on location, tactics, perpetrators, targets,
  records of 180,000 records . Data can be found on https://www.kaggle.com/START-UMD/gtd
 
 
-**Initial Analysis Questions :------------------------------------------------------------------------------------------------------
+**Initial Analysis Questions **:------------------------------------------------------------------------------------------------------
 
 1.	How many distinct regions exist in the dataset? What are the regions containing the highest and the lowest casualties?.Compare casualties, death toll and counts wounded in each region.
 
@@ -92,7 +95,7 @@ This dataset contains 100 variables on location, tactics, perpetrators, targets,
 9.	What is the most common motive behind the terror attacks?
 
 -------------------------------------------------------------------------------------------------------------------------------
-**1.	How many distinct regions exist in the dataset? What are the regions containing the highest and the lowest casualties?.Compare casualties, death toll and counts wounded in each region.
+**1.	How many distinct regions exist in the dataset? What are the regions containing the highest and the lowest casualties?.Compare casualties, death toll and counts wounded in each region.**
 
 ![](https://github.com/SwapnilChaudhari/10505342.github.io-A2-Interactive-Data-Visualization-on-Global-Terrorism-Python-/blob/master/code/visualization%20outputs/death_wounded_casualties_by_Region.png)
 
@@ -101,7 +104,7 @@ That is almost 14000,  200,000 and more than 300000 respectively. Middle East an
 Sub-Sahran Africa.  Interestingly, Central Asia , East Asia and Australia & Oceania have almost 0 or below 100 casualties. In other words,
 seems like nations in these regions like Australia and Israel have the most active counter-terror units to protect their citizens.  
 
-**2.	Compare the terror attack trend in each regions.
+**2.	Compare the terror attack trend in each regions.**
 
 ![](https://github.com/SwapnilChaudhari/10505342.github.io-A2-Interactive-Data-Visualization-on-Global-Terrorism-Python-/blob/master/code/visualization%20outputs/Attack%20Counts%20By%20Region.png)
 
@@ -109,9 +112,9 @@ From , above graph , it is clear that terror activities East Asia, Central Asia,
 throughout the time period (1970 – 2017). In remaining regions, it remained at average 0f 50 from 1970 to 2000. However, sudden
 hike is observed in the duration of 2000 to 2017.  What should be the reason behind it? Especially, in Middle East - North Africa and South Asia terror activities have drastically increased.
 
-**3.	Use the geographic information from the dataset to create a map. 
-And visualize the top countries affected by the terror attacks. Identify the top 5 countries with the highest casualties .
-And also mention countries with the least casualties and terror attacks?
+**3.	Use the geographic information from the dataset to create a map. **
+**And visualize the top countries affected by the terror attacks. Identify the top 5 countries with the highest casualties .**
+And also mention countries with the least casualties and terror attacks?**
 ![](https://github.com/SwapnilChaudhari/10505342.github.io-A2-Interactive-Data-Visualization-on-Global-Terrorism-Python-/blob/master/code/visualization%20outputs/worldwide_attack_map.png)
 
 The interactive choropleth map above shows the worldwide casualties. Each country is colored according to the shade the casualties 
@@ -127,11 +130,11 @@ Adding coordinates of all targeted locations
 Pinch in to see the country name with country with highest casualties which has the right most color in the colorbar below.
 ![](https://github.com/SwapnilChaudhari/10505342.github.io-A2-Interactive-Data-Visualization-on-Global-Terrorism-Python-/blob/master/code/visualization%20outputs/world_wide_targets_zoom.JPG)
 
-**4.	Highlite the top 100 terror targeted cities on map. 
-Bubbles show popup city name when clicked.
+**4.	Highlite the top 100 terror targeted cities on map.** 
+**Bubbles show popup city name when clicked.**
 ![](https://github.com/SwapnilChaudhari/10505342.github.io-A2-Interactive-Data-Visualization-on-Global-Terrorism-Python-/blob/master/code/visualization%20outputs/top%20targeted%20100%20cities%20map.JPG)
 
-**5.	What are the top 20 active terror groups ?
+**5.	What are the top 20 active terror groups ?**
 
 ![](https://github.com/SwapnilChaudhari/10505342.github.io-A2-Interactive-Data-Visualization-on-Global-Terrorism-Python-/blob/master/code/visualization%20outputs/Terror%20groupattacks.JPG)
 
@@ -142,7 +145,7 @@ Al Shabab (3288 attacks) 5th then NPA(2772 attacks) and Irish Republican Army-26
 ![](https://github.com/SwapnilChaudhari/10505342.github.io-A2-Interactive-Data-Visualization-on-Global-Terrorism-Python-/blob/master/code/visualization%20outputs/Top%2020%20Terrorist%20Groups%20by%20attaks%20.png)
 
 
-**6.	Discuss the counts of terror attack by its type.
+**6.	Discuss the counts of terror attack by its type.**
 
 ![](https://github.com/SwapnilChaudhari/10505342.github.io-A2-Interactive-Data-Visualization-on-Global-Terrorism-Python-/blob/master/code/visualization%20outputs/count%20attack%20types.JPG)
 
@@ -152,7 +155,7 @@ hostage taking (barricade) , hijacking are other kind of terror styles. However,
 ![](https://github.com/SwapnilChaudhari/10505342.github.io-A2-Interactive-Data-Visualization-on-Global-Terrorism-Python-/blob/master/code/visualization%20outputs/Attack%20Type%20and%20counts%20.png)
 
 
-**7.	Which are the 5 years with the highest terror attacks? What are the total casualties in the same years?
+**7.	Which are the 5 years with the highest terror attacks? What are the total casualties in the same years?**
 ![](https://github.com/SwapnilChaudhari/10505342.github.io-A2-Interactive-Data-Visualization-on-Global-Terrorism-Python-/blob/master/code/visualization%20outputs/attack%20counts%20and%20casualties%20by%20%20year%20zoom%20and%20box%20selet.JPG)
 The line graph articulates the attack counts by year and scatter plot represents the casualties by year.
 We can observe the rise in terror activity with the time in 20th century. Attacks were highest in  2014(16903attacks and 
