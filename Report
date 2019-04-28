@@ -1,0 +1,204 @@
+INTERACTIVE DATA VISUALIZATION ON GLOBAL TERRORISM USING PYTHON AND BOKEH
+
+ASSIGNMENT -2
+MODULE: DATA VISUALIZATION
+DUBLIN BUSINESS SCHOOL
+
+AUTHORS / TEAM MEMBERS / Student Names:
+Swapnil Chaudhari -10505342
+Ashish Bharadwaj -10396445
+Rakesh Pattanad- 10390582
+
+TOOLS FOR VISUALIZATION: PYTHON , JUPYTER , ANACONDA
+LIBRARIES : PANDAS, NUMPY, MATPLOTLIB , BOKEH (FOR INTERACTIVE VISUALIZATIONS) , FOLIUM 
+
+ 
+Everyday,  world has faced several terrorism activities and threats jeopardizing peace of the socity in different nooks. Hence, with the 
+Global Terrorism dataset which contains rich information regarding attacks and targetd cities along with their geospatial cordinates, attack time, 
+we can visualize and see the surprising insights. The richness of the dataset has convinced us to achieve fruitful visualizations.
+
+Contribution:
+Each team member has contributes and fulfild the following tasks.
+
+SWAPNIL CHAUDHARI (10505342) 
+1.Environment set setup (installation of packages / libraries) 
+2.Data Preprocessing (Data cleaning ,shaping ,Working with pandas, numpy)
+3.Interactive Choropleth Map to show casualties indifferent countries (Working with shapefiel, geopandas)
+4.Interactive map with all targeted lpcations across the globe (Working with shapefiel, geopandas) 
+5.Top 100 most terror targeted city/locations across the globe. ( Folium Map)  
+6.interactive line plot visualization (Attack Counts and casualties by year)
+7.Wordcloud visualization on Motive behind Terror attacks
+
+ASHISH BHARADWAJ.(10396445)
+1.DATA FINDING, DATA UNDERSTANDING
+2.Attack Counts By Regions (Line Plot)
+3.ATTACK TYpe and Counts
+
+RAKESH PATTANAD (10390582)
+1.Determining initial questions for analysis
+2.Death , Casualties and wounded By Regions
+3.Top 20 terror groups by attack counts
+
+
+Dataset: Global Terrorism Database
+More than 180,000 terrorist attacks worldwide, 1970-2017
+
+The Global Terrorism Database (GTD) is an open-source database including information on terrorist attacks around the world from 1970 through 2017. The GTD includes systematic data on domestic as well as international terrorist incidents that have occurred during this time period and now includes more than 180,000 attacks. The database is maintained by researchers at the National Consortium for the Study of Terrorism and Responses to Terrorism (START), headquartered at the University of Maryland.
+
+This dataset contains 100 variables on location, tactics, perpetrators, targets, and outcomes
+ records of 180,000 records . Data can be found on https://www.kaggle.com/START-UMD/gtd
+
+Data fields
+Here's a brief version of what you'll find in the data description file.
+Columns
+•	Eventid -A 12-digit Event ID system. First 8 numbers – date recorded “yyyymmdd”. Last 4 numbers – sequential case number for the given day (0001, 0002 etc).
+•	iyear- This field contains the year in which the incident occurred.
+•	Imonth- This field contains the number of the month in which the incident occurred.
+•	Iday -This field contains the numeric day of the month on which the incident occurred.
+•	approxdate
+•	extended1 = "Yes" The duration of an incident extended more than 24 hours. 0 = "No" The duration of an incident extended less than 24 hours.
+•	resolution
+•	country -This field identifies the country code
+•	country_-txtThis field identifies the country or location where the incident occurred.
+•	Region-This field identifies the region code based on 12 regions
+•	region_ -txtThis field identifies the region in which the incident occurred.
+•	provstateName -(at the time of event) of the 1st order subnational administrative region
+•	cityName -of the city, village, or town in which the incident occurred
+•	latitude-The latitude of the city in which the event occurred.
+•	Longitude-The longitude of the city in which the event occurred.
+•	specificity
+•	vicinity
+•	location
+•	summary
+•	crit1
+•	crit2
+•	crit3
+•	doubtterr
+•	alternative
+•	alternative_txt
+•	multiple
+•	success-Success of a terrorist strike
+•	suicide1 = "Yes" The incident was a suicide attack. 0 = "No" There is no indication that the incident was a suicide attack.
+•	attacktype1-The general method of attack
+•	attacktype1_-txtThe general method of attack and broad class of tactics used.
+•	attacktype2
+•	attacktype2_txt
+•	attacktype3
+•	attacktype3_txt
+•	targtype1
+•	targtype1_-txtThe general type of target/victim
+•	targsubtype1
+•	targsubtype1_-txtThe more specific target category
+•	corp1
+•	target1-The specific person, building, installation that was targeted and/or victimized
+•	natlty1
+•	natlty1_txt-The nationality of the target that was attacked
+•	targtype2-
+•	targtype2_txt-
+•	targsubtype2
+•	targsubtype2_txt
+•	corp2
+•	target2
+•	natlty2
+•	natlty2_txt
+•	targtype3
+•	targtype3_txt
+•	targsubtype3
+•	targsubtype3_txt
+•	corp3
+•	target3
+•	natlty3
+•	natlty3_txt
+•	gname-The name of the group that carried out the attack
+•	gsubnameadditional- details about group that carried out the attack like factions
+•	gname2
+•	gsubname2
+•	gname3
+•	gsubname3
+•	motive
+•	guncertain1
+•	guncertain2
+•	guncertain3
+•	individual
+•	nperps-The total number of terrorists participating in the incident
+•	nperpcap
+•	claimed
+•	claimmode
+•	claimmode_txt
+•	claim2
+•	claimmode2
+•	claimmode2_txt
+•	claim3
+•	claimmode3
+•	claimmode3_txt
+•	compclaim
+•	weaptype1
+•	weaptype1_txt-General type of weapon used in the incident
+•	weapsubtype1
+•	weapsubtype1_txt-More specific value for most of the Weapon Types
+•	weaptype2
+•	weaptype2_txt
+•	weapsubtype2
+•	weapsubtype2_txt
+•	weaptype3
+•	weaptype3_txt
+•	weapsubtype3
+•	weapsubtype3_txt
+•	weaptype4
+•	weaptype4_txt
+•	weapsubtype4
+•	weapsubtype4_txt
+•	weapdetail
+•	nkill-The number of total confirmed fatalities for the incident
+•	nkillus-The number of U.S. citizens who died as a result of the incident
+•	nkillter
+•	nwound-Number of confirmed non-fatal injuries to both perpetrators and victims.
+•	Nwoundus-The number of confirmed non-fatal injuries to U.S. citizens, both perpetrators and victims.
+•	nwoundte
+•	property
+•	propextent
+•	propextent_txt
+•	propvalue
+•	propcomment
+•	ishostkid
+•	nhostkid
+•	nhostkidus
+•	nhours
+•	ndays
+•	divert
+•	kidhijcountry
+•	ransom
+•	ransomamt
+•	ransomamtus
+•	ransompaid
+•	ransompaidus
+•	ransomnote
+•	hostkidoutcome
+•	hostkidoutcome_txt
+•	nreleased
+•	addnotes
+•	scite1
+•	scite2
+•	scite3
+•	dbsource
+•	INT_LOG
+•	INT_IDEO
+•	INT_MISC
+•	INT_ANY
+•	Related
+
+
+
+Initial Analysis Questions
+
+1.	How many distinct regions exist in the dataset? What are the regions containing the highest and the lowest casualties?.Compare casualties, death toll and counts wounded in each region.
+2.	Compare the terror attack trend in each regions.
+3.	Use the geographic information from the dataset to create a map. And visualize the top countries affected by the terror attacks. Identify the top 5 countries with the highest casualties . And also mention countries with the least casualties and terror attacks?
+4.	Highlite the top 100 terror targeted cities on map. 
+5.	Which are the 5 years with the highest terror attacks? What are the total casualties in the same years?
+6.	What are the top 20 active terror groups ?
+7.	Discuss the counts of terror attack by its type.
+8.	What kinds of weapons are used in terror attacks?
+9.	What is the most common motive behind the terror attacks?
+
+
