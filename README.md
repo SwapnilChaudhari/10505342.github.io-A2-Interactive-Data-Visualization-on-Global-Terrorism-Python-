@@ -31,37 +31,32 @@ we can visualize and see the surprising insights. The richness of the dataset ha
 **Contribution:**
 Each team member has contributes and fulfild the following tasks.
 
-SWAPNIL CHAUDHARI (10505342) ----------------------------------------------------------------------------------------------------
 
 1.Environment set setup (installation of packages / libraries) 
 
-2.Data Preprocessing (Data cleaning ,shaping ,Working with pandas, numpy)
+2.DATA UNDERSTANDING
 
-3.Interactive Choropleth Map to show casualties indifferent countries (Working with shapefiel, geopandas)
+3.Determining initial questions for analysis
 
-4.Interactive map with all targeted lpcations across the globe (Working with shapefiel, geopandas) 
+4.Data Preprocessing (Data cleaning ,shaping ,Working with pandas, numpy)
 
-5.Top 100 most terror targeted city/locations across the globe. ( Folium Map)  
+5.Interactive Choropleth Map to show casualties indifferent countries (Working with shapefiel, geopandas)
 
-6.interactive line plot visualization (Attack Counts and casualties by year)
+6.Interactive map with all targeted lpcations across the globe (Working with shapefiel, geopandas) 
 
-7.Wordcloud visualization on Motive behind Terror attacks
+7.Top 100 most terror targeted city/locations across the globe. ( Folium Map)  
 
-ASHISH BHARADWAJ.(10396445)--------------------------------------------------------------------------------------------------------
+8.interactive line plot visualization (Attack Counts and casualties by year)
 
-1.DATA FINDING, DATA UNDERSTANDING
+9.Wordcloud visualization on Motive behind Terror attacks
 
-2.Attack Counts By Regions (Line Plot)
+10.Attack Counts By Regions (Line Plot)
 
-3.ATTACK TYpe and Counts
+11.ATTACK TYpe and Counts
 
-RAKESH PATTANAD (10390582)---------------------------------------------------------------------------------------------------------
+12.Death , Casualties and wounded By Regions
 
-1.Determining initial questions for analysis
-
-2.Death , Casualties and wounded By Regions
-
-3.Top 20 terror groups by attack counts
+13.Top 20 terror groups by attack counts
 
 
 **Dataset: Global Terrorism Database **------------------------------------------------------------------------------------------------
