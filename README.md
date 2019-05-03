@@ -23,7 +23,8 @@ Rakesh Pattanad - 10390582
 
 **LIBRARIES : PANDAS, NUMPY, MATPLOTLIB , BOKEH (FOR INTERACTIVE VISUALIZATIONS) , FOLIUM **
 
- 
+**(Note: Interactive Views are not visible on Github.Github displays only images. Actual For interactive views/outputs open the html file provided in "HTML View Code interaction.rar") **
+
 Everyday,  world has faced several terrorism activities and threats jeopardizing peace of the socity in different nooks. Hence, with the 
 Global Terrorism dataset which contains rich information regarding attacks and targetd cities along with their geospatial cordinates, attack time, 
 we can visualize and see the surprising insights. The richness of the dataset has convinced us to achieve fruitful visualizations.
