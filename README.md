@@ -92,6 +92,9 @@ This dataset contains 100 variables on location, tactics, perpetrators, targets,
 -------------------------------------------------------------------------------------------------------------------------------
 **1.	How many distinct regions exist in the dataset? What are the regions containing the highest and the lowest casualties?.Compare casualties, death toll and counts wounded in each region.**
 
+
+![](https://github.com/SwapnilChaudhari/10505342.github.io-A2-Interactive-Data-Visualization-on-Global-Terrorism-Python-/blob/master/code/visualization%20outputs/death_wounded_casualties_by_Region.png)
+
 ![](https://github.com/SwapnilChaudhari/10505342.github.io-A2-Interactive-Data-Visualization-on-Global-Terrorism-Python-/blob/master/code/visualization%20outputs/fig1.html)
 From the graph it is clear that in Middle East and North Africa counts of death ,wounded and casualties all are the highest.
 That is almost 14000,  200,000 and more than 300000 respectively. Middle East and North Africa is followed by South Asia and
