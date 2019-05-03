@@ -144,7 +144,7 @@ Al Shabab (3288 attacks) 5th then NPA(2772 attacks) and Irish Republican Army-26
 
 ![](https://github.com/SwapnilChaudhari/10505342.github.io-A2-Interactive-Data-Visualization-on-Global-Terrorism-Python-/blob/master/code/visualization%20outputs/count%20attack%20types.JPG)
 
-The most prevalent type of attacks in all attacks are bombing/ explosion. 
+The most prevalent type of weapons in all attacks are bombing/ explosion. 
 According to data, so far more than 88 thousand bomb attacks are observed. Armed assault stands at 2nd rank with 42669 records. Assassination carried out by terror groups counts for 19312 records. Hostage taking,  Facility attack , unnamed assult, 
 hostage taking (barricade) , hijacking are other kind of terror styles. However, attacks types of 7276 records are still unknown.
 ![](https://github.com/SwapnilChaudhari/10505342.github.io-A2-Interactive-Data-Visualization-on-Global-Terrorism-Python-/blob/master/code/visualization%20outputs/Attack%20Type%20and%20counts%20.png)
