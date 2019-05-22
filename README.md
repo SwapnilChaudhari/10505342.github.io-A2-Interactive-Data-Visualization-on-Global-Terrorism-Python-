@@ -53,6 +53,10 @@ This dataset contains 100 variables on location, tactics, perpetrators, targets,
 -------------------------------------------------------------------------------------------------------------------------------
 # Discoveries /Insights
 -------------------------------------------------------------------------------------------------------------------------------
+
+Note: For interactions on charts please visit :
+https://www.kaggle.com/swapnil216/interactive-data-visualization-on-global-terrorism
+
 **1.	How many distinct regions exist in the dataset? What are the regions containing the highest and the lowest casualties?.Compare casualties, death toll and counts wounded in each region.**
 
 
