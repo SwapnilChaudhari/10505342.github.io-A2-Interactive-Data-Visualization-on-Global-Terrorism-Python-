@@ -10,15 +10,6 @@ MSc Data Analytics
 
 DUBLIN BUSINESS SCHOOL
 
-**AUTHORS / TEAM MEMBERS / Student Names: ** ------------------------------------------------------------------------------------------
-
-Swapnil Chaudhari -10505342
-
-Ashish Bharadwaj -10396445
-
-Rakesh Pattanad - 10390582
-
-------------------------------------------------------------------------------------------------------------------------------------
 **TOOLS FOR VISUALIZATION: PYTHON , JUPYTER , ANACONDA**
 
 **LIBRARIES : PANDAS, NUMPY, MATPLOTLIB , BOKEH (FOR INTERACTIVE VISUALIZATIONS) , FOLIUM **
@@ -28,37 +19,6 @@ Rakesh Pattanad - 10390582
 Everyday,  world has faced several terrorism activities and threats jeopardizing peace of the socity in different nooks. Hence, with the 
 Global Terrorism dataset which contains rich information regarding attacks and targetd cities along with their geospatial cordinates, attack time, 
 we can visualize and see the surprising insights. The richness of the dataset has convinced us to achieve fruitful visualizations.
-
-**Contribution:**
-Each team member has contributes and fulfild the following tasks.
-
-
-1.Environment set setup (installation of packages / libraries) 
-
-2.DATA UNDERSTANDING
-
-3.Determining initial questions for analysis
-
-4.Data Preprocessing (Data cleaning ,shaping ,Working with pandas, numpy)
-
-5.Interactive Choropleth Map to show casualties indifferent countries (Working with shapefiel, geopandas)
-
-6.Interactive map with all targeted lpcations across the globe (Working with shapefiel, geopandas) 
-
-7.Top 100 most terror targeted city/locations across the globe. ( Folium Map)  
-
-8.interactive line plot visualization (Attack Counts and casualties by year)
-
-9.Wordcloud visualization on Motive behind Terror attacks
-
-10.Attack Counts By Regions (Line Plot)
-
-11.ATTACK TYpe and Counts
-
-12.Death , Casualties and wounded By Regions
-
-13.Top 20 terror groups by attack counts
-
 
 **Dataset: Global Terrorism Database **------------------------------------------------------------------------------------------------
 
@@ -90,6 +50,8 @@ This dataset contains 100 variables on location, tactics, perpetrators, targets,
 
 9.	What is the most common motive behind the terror attacks?
 
+-------------------------------------------------------------------------------------------------------------------------------
+# Discoveries /Insights
 -------------------------------------------------------------------------------------------------------------------------------
 **1.	How many distinct regions exist in the dataset? What are the regions containing the highest and the lowest casualties?.Compare casualties, death toll and counts wounded in each region.**
 
